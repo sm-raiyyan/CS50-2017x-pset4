@@ -1,0 +1,14 @@
+1. <stdint.h> is a header file located in the C standard Library which "allow programmers to write more portable code by providing a set of typedefs,"
+    that narrow down specific typedefs in exact-integer types.
+2. These are predefined signed TYPES for specific number usage
+3. BYTE => 8-bit, DWORD => 32-bit, LONG => 32-bit, WORD => 16-bit
+4. In ASCII - "BM".
+5. bfSize specifies the size of a whole bitmap file; biSize specifies only the size of a BITMAPINFOHEADER structure.
+6. It means that a bmp file has its rows stored in top-down order. Actual height is then abs(biHeight).
+7. A field called biBitCount.
+8. For example, there is no more free space in a filesystem to create a file; or the user doesn't have permissions to create it.
+9. Third argument to fread specifies the number of reads from a stream; we need only one reading of a structure at a time.
+10. 3 bytes of padding.
+11.fseek() alters the current position in an opened file - for example, it can shift position to beginning, end, or two bytes away from current position.
+12. SEEK_CUR is a constant value defined in stdio.h, and is an argument to fseek() - it means "Seek from the current location" of an opened file.
+
